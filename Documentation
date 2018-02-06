@@ -1,0 +1,131 @@
+TOPIC 1:
+	modules used are:
+			csv-----------------------------------For reading data from the csv file
+			numpy----------------------------------For using linear algebra,and random number   capabilities
+			stats----------------------------------For finding the means.
+
+
+
+	This data contains speed and distance covered in some time interval by different cars.
+		As the speed and distance both are positive quantities mean calculation has real significance of data.There
+	is sudden jump in the data in distance that is not good for mean so,for distance harmonic mean has real significance of daata.
+		As i get the there are some large numbers are  there in distance column so, median and mode has more 
+	significance of data.
+			
+			OUTPUT:
+
+				---------------Speed-----------------
+					Mean:15.400000
+					Harmonic mean:12.961526
+					Geometric mean:14.325006
+
+				---------------Distance-----------
+					Mean:42.980000
+					Harmonic mean:22.182143
+					Geometric mean:34.326148
+
+
+
+TOPIC 2:
+	modules used are:
+			pandas---------------------------------For reading data from the xlsx file
+			numpy----------------------------------For using linear algebra,and random	
+			matplotlib.pyplot-----------------------For ploting the boxplots
+
+	There are some address point which are not real significant.The influence of these points is removed in the secont boxplots.
+	First boxplots showing some circles which are due to  outliars and are removed by removing outliers.So, there is no circles in the second boxplots.
+
+
+
+
+
+
+
+TOPIC 3:
+	modules used are:
+			pandas---------------------------------For reading data from the csv file
+			numpy----------------------------------For using linear algebra,and random	
+			statistic.mode--------------------------For finding the mode of data
+			statistic.median--------------------------For finding the median of data
+
+
+
+	# NOMINAL:symboling, city-mpg,highway-mpg
+
+	# ORDINAL:normalized-losses,engine-size, bore  ,stroke ,horsepower ,peak-rpm ,price , horsepower 
+
+
+	# INTERVAL:wheel-base,length,width,height,curb-weight
+
+
+	# RATIO:num-of-doors,num-of-cylinders,compression-ratio 
+
+
+	# these are not categorised by NOIR
+		make,fuel-type,aspiration,body-style,drive-wheels,engine-location,engine-type,fuel-system 
+
+	peak-rmp  follows the Normal distribution and city-mpg fallows the Poisson distribution. 
+						+++++++++++City Mapping++++++++++
+						+	Mean:25						+
+						+	Mode:31						+
+						+	Median:24					+
+						+++++++++++++++++++++++++++++++++
+
+						+++++++++++Engine Size ++++++++++
+						+	Mean:126					+
+						+	No unique mode found		+
+						+	Median:120					+
+						+++++++++++++++++++++++++++++++++
+
+						+++++++++++Curb Weight++++++++++
+						+	Mean:2555					+
+						+	Mode:2385					+
+						+	Median:2414					+
+						+++++++++++++++++++++++++++++++++
+
+						+++++++++Compression Rati++++++++
+						+	Mean:10						+
+						+	Mode:9						+
+						+	Median:9					+
+						+++++++++++++++++++++++++++++++++
+
+
+TOPIC 4:
+	modules used are:
+			pandas---------------------------------For reading data from the csv file
+			numpy----------------------------------For using linear algebra
+			random---------------------------------For finding random number
+	Both the variances dont have  muuch difference ,both of them are close to each other.So, variance has real significant.
+		OUTPUT:
+			+++++++++++++++++++MEAN++++++
+			+	Sepal Length:5			+
+			+	Sepal Width:3			+
+			+	Petal Length:3			+
+			+	Petal Width:1			+
+			+++++++++++++++++++++++++++++
+
+			-------------------Sepal Length------------------------
+				 	all data :0.681122
+				 random 50 data :0.662331
+
+			-------------------Sepal Width------------------------
+				 	all data :0.186751
+				 random 50 data :0.174891
+
+			-------------------Petal Length------------------------
+				 	all data :3.092425
+				 random 50 data :2.800336
+
+			-------------------Petal Width------------------------
+				 	all data :0.578532
+				 random 50 data :0.524916
+ 
+TOPIC 5:
+	module used:
+		csv -----------------------------For convering pdf to csv
+		Axes3D---------------------------For making 3D plots
+		matplotlib.pyplot----------------For ploting cude
+		numpy----------------------------For linear algebra
+		product--------------------------For drawing data cude model
+		combinations---------------------For drawing
+
