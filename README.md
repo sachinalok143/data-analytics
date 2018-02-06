@@ -29,6 +29,10 @@ FILE iris.py
     mean.
     b) Assume a sample of size 50 chosen at random, find the population variance.
     c) Compare the sample variance with that of population variance?
+    
+    
+    
+    
 FILE weather.py
     Reference: WEATHER data during 1901-2002
     a) The data pertaining to weather from National Data Centres across the major cities in
